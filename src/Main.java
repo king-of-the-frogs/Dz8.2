@@ -21,26 +21,13 @@ class Main {
         System.out.println(counter);
 
 
-        int num = 1;
-        int pum = 2;
-        int tum = 3;
-        for(int i = 1; i <= 10; ++i) {
-            int lol = num * i;
-            System.out.printf("%d ",lol);
-
+        for(int i = 1; i < 11; i++){
+            for(int j = 1; j < 11; j++){
+                System.out.print(j * i + "  ");
+            }
+            System.out.println("");
         }
-        System.out.println("\n");
-        for(int i = 1; i <= 10; ++i) {
-            int kek = pum * i;
-            System.out.printf("%d ",kek);
-
-        }
-        System.out.println("\n");
-        for(int i = 1; i <= 10; ++i) {
-            int cheburek = tum * i;
-            System.out.printf("%d ",cheburek);
-        }
-    }
+}
 }
 
 
